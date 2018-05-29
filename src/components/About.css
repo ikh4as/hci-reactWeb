@@ -1,0 +1,29 @@
+.header-image {
+  width: 100%;
+  margin-top: -2em;
+  margin-bottom: 2em;
+}
+.bg4 {
+  background-image: url("./assets/TabAboutUs.jpg");
+  background-size: cover;
+  height:800px;
+  max-width: 100%;
+  margin: 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.about-profile-pic {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+
+.Boss{
+	width: 400px;
+}
+
+#bgAbout{
+  background-color: #390301;
+  margin-top: 0;
+
+}

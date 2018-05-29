@@ -1,0 +1,115 @@
+@font-face {
+    font-family: BACK TO BLACK DEMO;
+    src: url('./BACK TO BLACK DEMO.TTF');
+}
+
+.bg5 {
+  background-image: url("./assets/TabContact-Us.jpg");
+  background-size: cover;
+  height:800px;
+  max-width: 100%;
+  margin: 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.jumbotron {
+  margin-bottom: 4em;
+}
+.person-wrapper {
+  margin-bottom: 2em;
+}
+
+.profile-pic {
+  width: 50%;
+}
+
+/* silde Down*/
+.scroll-down {
+  opacity: 1;
+  -webkit-transition: all .5s ease-in 3s;
+  transition: all .5s ease-in 3s;
+
+}
+
+.scroll-down {
+  position: absolute;
+  margin-bottom: 4em;
+  bottom: 0%;
+  left: 48%;
+  display: block;
+  width: 4em;
+  height: 4em;
+  border: 0.15em solid #FFF;
+  background-size: 14em auto;
+  border-radius: 50%;
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.scroll-down:before {
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(50% - 13.5px);
+    transform: rotate(-45deg);
+    display: block;
+    width: 2em;
+    height: 2em;
+    content: "";
+    border: 0.15em solid white;
+    border-width: 0em 0 0.1em 0.1em;   
+}
+
+#bgContact{
+  background-color: #390301;
+  margin-top: 0;
+}
+
+#map{
+transition:2s;  
+}
+.bgmap{ 
+background-color:  #390301;
+padding-bottom: 5%;
+}
+
+.contact {
+    float: left;
+    width:0%;
+  transition:0.5s;
+}
+
+.contact a{
+text-decoration: none;
+color: #435969;
+text-align:left;
+font-family: inherit;
+font-style: inherit;
+font-weight: bold;
+
+}
+
+.contact:hover a{
+  text-decoration: none;
+  color: #212931;
+}
+
+.cont{
+width: 100%;
+height: 150px;
+padding-left: 20%;
+margin-top: 20px;
+}
+
+.textcon{
+font-family:'Oswald';
+color: #fff;
+padding-top:20px;
+text-align: center;
+font-size: 25px;
+font-weight: bold;
+padding-bottom: 50px;
+}

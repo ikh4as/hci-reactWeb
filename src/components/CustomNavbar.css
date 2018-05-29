@@ -1,0 +1,28 @@
+#menubar1{
+  opacity: 0.95;
+  width: 100%;
+  z-index: 30;
+  position: fixed;
+  top: -100px;
+  background-color: #111111 ;
+  transition: 0.3s;
+}
+nav {
+    text-align:center;   
+    display:block;
+}
+nav li {
+    list-style-type:none;
+    display:inline-block;
+    padding:1% 2% 1%;
+}
+nav a {
+  color:#fff;
+    font-size: 1.3em;
+    font-weight: normal;
+    font-family:'Oswald';
+}
+nav  :hover {
+    text-decoration:none;
+    color:yellow;
+}

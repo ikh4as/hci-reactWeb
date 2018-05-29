@@ -1,0 +1,312 @@
+
+.bg {
+  background-image: url("./assets/Home.png");
+  background-size: cover;
+  height:800px;
+  max-width: 100%;
+  margin: 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.jumbotron {
+  margin-bottom: 4em;
+}
+.person-wrapper {
+  margin-bottom: 2em;
+}
+
+.profile-pic {
+  width: 50%;
+}
+
+
+
+/* silde Down*/
+.scroll-down {
+  opacity: 1;
+  -webkit-transition: all .5s ease-in 3s;
+  transition: all .5s ease-in 3s;
+
+}
+
+.scroll-down {
+  position: absolute;
+  margin-bottom: 4em;
+  bottom: 0%;
+  left: 48%;
+  display: block;
+  width: 4em;
+  height: 4em;
+  border: 0.15em solid #FFF;
+  background-size: 14em auto;
+  border-radius: 50%;
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.scroll-down:before {
+    position: absolute;
+    top: calc(50% - 20px);
+    left: calc(50% - 13.5px);
+    transform: rotate(-45deg);
+    display: block;
+    width: 2em;
+    height: 2em;
+    content: "";
+    border: 0.15em solid white;
+    border-width: 0em 0 0.1em 0.1em;   
+}
+
+/* Carousel Food menu */
+#bgCarouselFood{
+  background-color: #390301;
+  margin-top: 0;
+
+}
+
+.Carousel{
+width: 50%;
+margin-left: 25%;
+}
+.carousel-indicators li { visibility: hidden; }
+.carousel-control.left, .carousel-control.right {
+   background-image:none;
+   filter:none;
+}
+.textmenu {
+    font-family:'Oswald';
+    font-weight: normal;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 4%;
+}
+
+.BgGallery{
+  background: #390301;
+}
+.grids
+{
+  padding:5%;
+  overflow:hidden;
+  width:100%;
+}
+
+.grids > *
+{
+  float:left;
+  width:25%;
+  width:calc(100%/4);
+  width:-webkit-calc(100%/4);
+  box-sizing:border-box;
+}
+
+.grids > div > img
+{
+  padding:2%;
+  width:100%;
+  display:block;
+  transition: transform .35s;
+}
+.grids > div > img:hover
+{
+  padding:0%;
+  border: 5px solid #fff;
+  transform: scale(1.4);
+}
+
+@media(max-width:1200px)
+{
+  .grids > *{
+    width:calc(100%/4);
+    width:-webkit-calc(100%/4);
+  }
+}
+
+@media(max-width:640px)
+{
+  .grids > *{
+    width:calc(100%/2);
+    width:-webkit-calc(100%/2);
+  }
+}
+
+@media(max-width:320px)
+{
+  .grids > *{
+    width:100%;
+  }
+}
+.home {
+  background-image: url("./assets/new-menu.jpg");
+  height: 600px;
+  color: #fff;
+  background-size: cover;
+  max-width: 100%;
+  margin: 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.button {
+  font-family: BACK TO BLACK DEMO;
+  font-size: 7em;
+  display: inline-block;
+  border: 5px solid #ff9c0f;
+  padding: 90px;
+  color: #ff9c0f;
+  transition: 0.3s;
+  margin: 200px 20px 20px 120px;
+  
+}
+
+.button:hover {
+  background: #fff;
+color: #ff9c0f;
+}
+
+.accordion {
+  width: 100%;
+  max-width: 1080px;
+  height: 450px;
+  overflow: hidden;
+  margin: 50px auto;
+}
+.accordion ul {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  margin: 0;
+  padding: 0;
+}
+.accordion ul li {
+  height: auto;
+  display: table-cell;
+  vertical-align: bottom;
+  position: relative;
+  width: 16.666%;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: all 500ms ease;
+}
+.accordion ul li div {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+.accordion ul li div a {
+  display: block;
+  height: 250px;
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  vertical-align: bottom;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  color: #fff;
+  text-decoration: none;
+  font-family: Open Sans, sans-serif;
+  transition: all 200ms ease;
+}
+.accordion ul li div a * {
+  opacity: 0;
+  margin: 0;
+  width: 100%;
+  text-overflow: ellipsis;
+  position: relative;
+  z-index: 5;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-transform: translateX(-20px);
+  transform: translateX(-20px);
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+.accordion ul li div a h2 {
+  font-family:'Oswald';
+  font-weight: bold;
+  text-overflow: clip;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+  top: 80px;
+}
+.accordion ul li div a p {
+  font-family:'Oswald';
+  font-weight: normal;
+  font-size: 20px;
+  top: 100px;
+}
+.accordion ul li:nth-child(1) {
+  background-image: url("./assets/1.jpg");
+}
+.accordion ul li:nth-child(2) {
+  background-image: url("./assets/7.jpg");
+}
+.accordion ul li:nth-child(3) {
+  background-image: url("./assets/3.jpg");
+}
+.accordion ul li:nth-child(4) {
+  background-image: url("./assets/4.jpg");
+}
+.accordion ul li:nth-child(5) {
+  background-image: url("./assets/5.jpg");
+}
+.accordion ul li:nth-child(6) {
+  background-image: url("./assets/6.jpg");
+}
+
+.accordion ul:hover li {
+  width: 8%;
+}
+.accordion ul:hover li:hover {
+  width: 60%;
+}
+.accordion ul:hover li:hover a {
+  background: rgba(0, 0, 0, 0.4);
+}
+.accordion ul:hover li:hover a * {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    margin: 0;
+  }
+
+  .accordion {
+    height: auto;
+  }
+  .accordion ul li, .accordion ul li:hover, .accordion ul:hover li, .accordion ul:hover li:hover {
+    position: relative;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    -webkit-transition: none;
+    transition: none;
+  }
+}
+.about {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  color: #666;
+}
+.about a {
+  color: blue;
+  text-decoration: none;
+}
+.about a:hover {
+  text-decoration: underline;
+}
