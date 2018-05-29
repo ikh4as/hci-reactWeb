@@ -32,12 +32,12 @@ export default class About extends Component {
 <div id="bgAbout">
 
 <h1 Style="font-size:5em;color:#ff9c0f ; text-align: center;  padding-top:0%; padding-bottom:2%; font-family: BACK TO BLACK DEMO;">Menu</h1>
-<img Style="width:40%; margin-left:30%;  margin-top:3%; padding-bottom:5%; " src="assets/Menu/Menu.png" />
+<img Style="width:40%; margin-left:30%;  margin-top:3%; padding-bottom:5%; " src="assets/Menu/kkk.png" />
 
 <div class="row" Style="padding-bottom:2%;">
   <div className="col-2-3">
     <div className="show show-second">
-      <img src="./assets/Menu/Menu2.png"/>
+      <img src="./assets/Menu/kkk1.png"/>
       
       <div className="mask"Style="padding-top:50%;">
         <h2 Style="font-family:'Oswald';  font-weight: bold; font-size:5em;">MAINS</h2>
@@ -49,7 +49,7 @@ export default class About extends Component {
   </div>
   <div className="col-2-3">
     <div className="show show-second">
-      <img src="./assets/Menu/Menu1.png"/>
+      <img src="./assets/Menu/kkk2.png"/>
       
       <div className="mask"Style="padding-top:50%;">
         <h2 Style="font-family:'Oswald';  font-weight: bold;font-size:5em;">STEAK SIDES</h2>
@@ -62,7 +62,7 @@ export default class About extends Component {
 
   <div className="col-2-3">
     <div className="show show-second">
-      <img src="./assets/Menu/Menu4.png"/>
+      <img src="./assets/Menu/kkk3.png"/>
       
       <div className="mask"Style="padding-top:50%;">
         <h2 Style="font-family:'Oswald';  font-weight: bold; font-size:5em;">DRINKS</h2>
